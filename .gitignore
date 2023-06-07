@@ -1,0 +1,29 @@
+## Ignore temporary files
+*.tmp
+*.pid
+*.lock
+*.DS_Store
+
+## Ignore build output
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+## Ignore IDE files
+*.idea
+*.iml
+*.project
+
+## Ignore generated files
+*.gen
+*.min.*
+*.map
+
+## Ignore coverage reports
+coverage/
+
+## Ignore other miscellaneous files
+.DS_Store
+Thumbs.db
