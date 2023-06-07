@@ -6,7 +6,9 @@ import com.example.login.repository.PasswordRepository;
 import com.example.login.repository.UserRepository;
 import com.example.login.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
