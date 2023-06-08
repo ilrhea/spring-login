@@ -13,13 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
-
-    private final UserServiceImpl userService;
-
     @Autowired
-    public AuthController(UserServiceImpl userService) {
-        this.userService = userService;
-    }
+    private UserService userService;
 
     @PostMapping("/signin")
     public ResponseEntity<?> authenticate(){
